@@ -31,7 +31,7 @@ client.connect(err => {
   });*/
 
   //修改数据
-  collection.updateOne({email:"liu@qq.com"},{$set:{email:"liujj@qq.com"}},function(err,result){
+  collection.updateOne({email:"liujj@qq.com"},{$set:{email:"liujjing@qq.com"}},function(err,result){
     console.log(result);
   });
 
